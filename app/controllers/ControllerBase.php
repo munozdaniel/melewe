@@ -7,7 +7,7 @@ class ControllerBase extends Controller
     protected function initialize()
     {
         $this->tag->prependTitle('Melewe - ');
-        $this->view->setTemplateAfter('main');
+        $this->view->setTemplateAfter('principal');
     }
 
     protected function redireccionar($uri)
