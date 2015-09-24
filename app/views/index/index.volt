@@ -1,7 +1,9 @@
-<div class="page-header">
-    <h1>Congratulations!</h1>
-</div>
+{{ content() }}
+{{ partial('index/parcial/nosotros') }}
+{{ partial('index/parcial/complejos') }}
+{{ partial('index/parcial/social') }}
+{{ partial('index/parcial/contacto') }}
 
-<p>You're now flying with Phalcon. Great things are about to happen!</p>
 
-<em>This page is located at views/index/index.phtml</em>
+
+
