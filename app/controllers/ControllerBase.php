@@ -6,7 +6,7 @@ class ControllerBase extends Controller
 {
     protected function initialize()
     {
-        $this->tag->prependTitle('ENCUESTAS | ');
+        $this->tag->prependTitle('Melewe - ');
         $this->view->setTemplateAfter('main');
     }
 
