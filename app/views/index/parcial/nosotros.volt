@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Title Page -->
         <div class="row">
-            <div class="span12">
+            <div class="span12 col-md-12">
                 <div class="title-page">
                     <h2 class="title">Quiénes somos?</h2>
                     <h3 class="title-description">Los complejos Melewe pertenecen al Instituto Municipal de Previsión Social (IMPS) que es la caja de jubilaciones de los empleados municipales de la ciudad de Neuquén. Están abiertos durante todo el año y a todo público.
@@ -17,7 +17,7 @@
         <div class="row">
 
             <!-- Start Profile -->
-            <div class="span4 profile">
+            <div class="col-md-4 span4 profile">
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
@@ -31,7 +31,7 @@
             <!-- End Profile -->
 
             <!-- Start Profile -->
-            <div class="span4 profile">
+            <div class="col-md-4 span4 profile">
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
@@ -45,7 +45,7 @@
             <!-- End Profile -->
 
             <!-- Start Profile -->
-            <div class="span4 profile">
+            <div class="col-md-4 span4 profile">
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
