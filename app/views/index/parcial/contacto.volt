@@ -3,10 +3,10 @@
     <div class="container">
         <!-- Title Page -->
         <div class="row">
-            <div class="span12">
+            <div class="span12 col-md-12 ">
                 <div class="title-page">
-                    <h2 class="title">Get in Touch</h2>
-                    <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+                    <h2 class="title">Déjenos su consulta</h2>
+                    <h3 class="title-description">Estamos para resolver todas sus dudas.</h3>
                 </div>
             </div>
         </div>
@@ -14,18 +14,27 @@
 
         <!-- Contact Form -->
         <div class="row">
-            <div class="span9">
+            <div class="col-md-9 span9">
 
                 <form id="contact-form" class="contact-form" action="#">
+
                     <p class="contact-name">
-                        <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                        <input id="contact_name" type="text" placeholder="Nombre Completo" value="" name="name" />
                     </p>
                     <p class="contact-email">
                         <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
                     </p>
+                    <select>
+                        <option value="volvo">Villa La Angostura</option>
+                        <option value="saab">Caviahue</option>
+                        <option value="mercedes">Moquehue</option>
+                        <option value="audi">San Martin</option>
+                        <option value="audi">Las Grutas</option>
+                    </select>
                     <p class="contact-message">
                         <textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
                     </p>
+
                     <p class="contact-submit">
                         <a id="contact-submit" class="submit" href="#">Send Your Email</a>
                     </p>
@@ -37,18 +46,17 @@
 
             </div>
 
-            <div class="span3">
+            <div class="col-md-3 span3">
                 <div class="contact-details">
-                    <h3>Contact Details</h3>
+                    <h3>Detalles de Contacto</h3>
                     <ul>
-                        <li><a href="#">hello@brushed.com</a></li>
-                        <li>(916) 375-2525</li>
+                        <li><a href="#">turismo@imps.tur.ar</a></li>
+                        <li>(0299) 4479921</li>
                         <li>
-                            Brushed Studio
+                            Neuquén, Neuquén
                             <br>
-                            5240 Vanish Island. 105
+                            Fotheringham 107
                             <br>
-                            Unknow
                         </li>
                     </ul>
                 </div>
