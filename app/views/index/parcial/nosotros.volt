@@ -5,8 +5,9 @@
         <div class="row">
             <div class="span12">
                 <div class="title-page">
-                    <h2 class="title">About Us</h2>
-                    <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
+                    <h2 class="title">Quiénes somos?</h2>
+                    <h3 class="title-description">Los complejos Melewe pertenecen al Instituto Municipal de Previsión Social (IMPS) que es la caja de jubilaciones de los empleados municipales de la ciudad de Neuquén. Están abiertos durante todo el año y a todo público.
+                        Se han establecido alianzas estratégicas con diferentes instituciones interesadas en ofrecer nuestros servicios a sus afiliados y adherentes.</h3>
                 </div>
             </div>
         </div>
@@ -20,21 +21,12 @@
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
-                        <span class="overlay-text-thumb">CTO/Founder</span>
+                        <span class="overlay-text-thumb">Verano</span>
                     </div>
-                    <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+                    <img src="_include/img/profile/profile-01.jpg" alt="Verano">
                 </div>
-                <h3 class="profile-name">John Doe</h3>
-                <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>.
-                    Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-                <div class="social">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
-                        <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-                    </ul>
-                </div>
+                <h3 class="profile-name">Verano</h3>
+                <p class="profile-description">Información no disponible <a>momentáneamente</a></p>
             </div>
             <!-- End Profile -->
 
@@ -43,20 +35,12 @@
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
-                        <span class="overlay-text-thumb">Creative Director</span>
+                        <span class="overlay-text-thumb">Invierno</span>
                     </div>
                     <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
                 </div>
-                <h3 class="profile-name">Jane Helf</h3>
-                <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>.
-                    Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-                <div class="social">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="font-icon-social-email"></i></a></li>
-                    </ul>
-                </div>
+                <h3 class="profile-name">Invierno</h3>
+                <p class="profile-description">Información no disponible <a>momentáneamente</a></p>
             </div>
             <!-- End Profile -->
 
@@ -65,22 +49,14 @@
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
-                        <span class="overlay-text-thumb">Lead Designer</span>
+                        <span class="overlay-text-thumb">Temporada Baja</span>
                     </div>
                     <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
                 </div>
-                <h3 class="profile-name">Joshua Insanus</h3>
-                <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>.
-                    Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <h3 class="profile-name">Temporada Baja</h3>
+                <p class="profile-description">Información no disponible <a>momentáneamente</a></p>
 
-                <div class="social">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
-                        <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
-                        <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
-                    </ul>
-                </div>
+
             </div>
             <!-- End Profile -->
 
