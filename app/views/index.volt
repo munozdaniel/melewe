@@ -76,6 +76,12 @@
     {{ javascript_include('js/jquery.tweet.js') }} <!-- Tweet -->
     {{ javascript_include('js/plugins.js') }} <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi  -->
     {{ javascript_include('js/main.js') }} <!-- Default JS -->
+    {%  if (assets.collection("footer")) %}
+        {{  assets.outputJs("footer") }}
+    {% endif %}
+    {%  if (assets.collection("footerInline")) %}
+        {{  assets.outputInlineJs("footerInline") }}
+    {% endif %}
 
   <!-- End Js -->
 </html>
