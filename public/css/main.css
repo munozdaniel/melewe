@@ -11,7 +11,11 @@ Version: 1.0
 /* ==================================================
    Basic Styles
 ================================================== */
-
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+.font-melewe{
+    font-family: 'Kaushan Script', cursive;
+    text-transform: lowercase !important;
+}
 html, body {
 	height: 100%;
 }
@@ -540,28 +544,29 @@ nav#menu #menu-nav {
 	padding: 0;	
 }
 
-nav#menu #menu-nav li {
+nav#menu-ppal #menu-navegador li {
 	list-style: none;
 	display: inline-block;
 	margin-left: 50px;	
 }
 
-nav#menu #menu-nav li:first-child {
+nav#menu-ppal #menu-navegador li:first-child {
 	margin-left: 0;	
 }
 
-nav#menu #menu-nav li a {
+ #menu-navegador li a {
 	color: #FFFFFF;
 	font-size: 16px;
 	font-weight: 300;
-	line-height: 60px;
+
 	display: block;
 	text-transform: uppercase;
 }
 
-nav#menu #menu-nav li.current a,
-nav#menu #menu-nav li a:hover {
+ #menu-navegador li.current a,
+#menu-navegador li a:hover {
 	color: #DE5E60;
+     background-color:  rgba(255, 255, 255, 0);
 }
 
 
