@@ -23,7 +23,7 @@ class IndexController extends ControllerBase
 
     public function indexAction()
     {
-
+        $this->view->contacto = new ContactoForm();
     }
     public function enviarAction()
     {

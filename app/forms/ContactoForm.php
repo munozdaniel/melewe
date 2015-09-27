@@ -21,9 +21,9 @@ class ContactoForm  extends \Phalcon\Forms\Form{
         /*--------------- Nombre ---------*/
         $nombre = new Text('contacto_nombre',array(
             'maxlength'   => 50,
-            'placeholder' => 'Nombre',
+            'placeholder' => 'Nombre Completo',
         ));
-        $nombre->setLabel("Nombre");
+        $nombre->setLabel("Nombre Completo");
         $nombre->addValidators(array(
             new PresenceOf(array(
                 'message' => 'El <strong>nombre y el apellido</strong> son requeridos.'
@@ -67,16 +67,6 @@ class ContactoForm  extends \Phalcon\Forms\Form{
             ))
         ));
         $this->add($asunto);
-        /*--------------- Mensaje ---------*/
-        $mensaje = new \Phalcon\Forms\Element\TextArea("contacto_mensaje",
-            array(
-                'maxlength'   => 150,
-                'placeholder' => 'Ingrese su mensaje...',
-                'rows'=>'4' ,'cols'=>'40'
-            ));
-        $mensaje->setLabel('Observaciones');
-        $mensaje->setFilters(array('string'));
-        $this->add($mensaje);
         /*--------------- Complejo ---------*/
         //Seleccionar un complejo y solicitar correo.
         $complejo = new Select('contacto_destino', array(
@@ -90,11 +80,22 @@ class ContactoForm  extends \Phalcon\Forms\Form{
         ));
         $complejo->setLabel("Complejo");
         $this->add($complejo);
+        /*--------------- Mensaje ---------*/
+        $mensaje = new \Phalcon\Forms\Element\TextArea("contacto_mensaje",
+            array(
+                'maxlength'   => 150,
+                'placeholder' => 'Ingrese su mensaje...',
+                'rows'=>'4' ,'cols'=>'50'
+            ));
+        $mensaje->setLabel('Observaciones');
+        $mensaje->setFilters(array('string'));
+        $this->add($mensaje);
+
         /*--------------- Boton ---------*/
-        $participar = new Submit('enviar', array(
-            'class' => 'btn btn-success btn-block'
+        $participar = new Submit('Enviar Email', array(
+            'class' => 'submit'
         ));
-        $participar->setLabel('Enviar');
+        $participar->setLabel('Enviar Email');
         $this->add($participar);
 
     }
