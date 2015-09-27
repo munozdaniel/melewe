@@ -20,5 +20,15 @@ return new \Phalcon\Config(array(
         'libraryDir'     => APP_PATH . '/app/library/',
         'cacheDir'       => APP_PATH . '/app/cache/',
         'baseUri'        => '/melewe/',
+    ),
+    'mail' => array(
+        'host'     => 'mail.imps.org.ar',
+        'username'        => 'plantilla@imps.org.ar',
+        'password'    => 'dan$%&--iel',
+        'security'    => '',
+        'port'      => '26',
+        'charset'     => 'UTF-8',
+        'email'     => 'dmunioz@imps.org.ar',
+        'name'     => 'dmunioz@imps.org.ar',
     )
 ));

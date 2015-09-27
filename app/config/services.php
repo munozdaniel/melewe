@@ -90,3 +90,22 @@ $di->set('flash', function()
         'warning'   => 'alert alert-warning ',
     ));
 });
+
+$di->set('mail', function () use ($config) {
+    $mail = new PHPMailer;
+    //Muestra Mensajes de error con detalles 3 o 4.
+    // $mail->SMTPDebug = 2;
+    $mail->isSMTP();
+    $mail->isHTML(true);
+
+    $mail->CharSet      = $config->mail->charset;
+    $mail->Host         = $config->mail->host;
+    $mail->SMTPAuth     = true;
+    $mail->Username     = $config->mail->username;
+    $mail->Password     = $config->mail->password;
+    $mail->SMTPSecure   = $config->mail->security;
+    $mail->Port         = $config->mail->port;
+    $mail->addAddress($config->mail->email, $config->mail->name);
+
+    return $mail;
+});

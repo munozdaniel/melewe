@@ -16,14 +16,14 @@
         <div class="row">
             <div class="col-md-9 span9">
 
-                <form id="contact-form" class="contact-form" action="#">
-
+                {{ form('index/enviar',"class":"contact-form","method":"post") }}
                     <p class="contact-name">
                         <input id="contact_name" type="text" placeholder="Nombre Completo" value="" name="name" />
                     </p>
                     <p class="contact-email">
                         <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
                     </p>
+                    <p class="contact-email">
                     <select>
                         <option value="volvo">Villa La Angostura</option>
                         <option value="saab">Caviahue</option>
@@ -31,6 +31,7 @@
                         <option value="audi">San Martin</option>
                         <option value="audi">Las Grutas</option>
                     </select>
+                    </p>
                     <p class="contact-message">
                         <textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
                     </p>
