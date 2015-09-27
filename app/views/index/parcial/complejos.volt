@@ -1,5 +1,5 @@
 <!-- Our Work Section -->
-<div id="work" class="page">
+<div id="galeria" class="page">
     <div class="container">
         <!-- Title Page -->
         <div class="row">
@@ -36,7 +36,7 @@
                         <ul id="thumbs">
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 design">
+                            <li class="item-thumbs  col-md-4 design">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="img/work/full/image-01-full.jpg">
                                     <span class="overlay-img"></span>
@@ -48,7 +48,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 design">
+                            <li class="item-thumbs col-md-4 design">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="img/work/full/image-02-full.jpg">
                                     <span class="overlay-img"></span>
@@ -60,7 +60,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 photography">
+                            <li class="item-thumbs col-md-4 photography">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="img/work/full/image-03-full.jpg">
                                     <span class="overlay-img"></span>
@@ -72,7 +72,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 video">
+                            <li class="item-thumbs  col-md-4 video">
                                 <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
                                 <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/51460511">
                                     <span class="overlay-img"></span>
@@ -84,7 +84,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 photography">
+                            <li class="item-thumbs col-md-4 photography">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="img/work/full/image-04-full.jpg">
                                     <span class="overlay-img"></span>
@@ -96,7 +96,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3  photography">
+                            <li class="item-thumbs col-md-4  photography">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="img/work/full/image-05-full.jpg">
                                     <span class="overlay-img"></span>
@@ -108,7 +108,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 video">
+                            <li class="item-thumbs col-md-4 video">
                                 <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
                                 <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/50834315">
                                     <span class="overlay-img"></span>
@@ -120,7 +120,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 design">
+                            <li class="item-thumbs col-md-4 design">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="img/work/full/image-06-full.jpg">
                                     <span class="overlay-img"></span>
@@ -132,7 +132,7 @@
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 col-md-3 design">
+                            <li class="item-thumbs col-md-4 design">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="img/work/full/image-07-full.jpg">
                                     <span class="overlay-img"></span>
