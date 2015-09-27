@@ -937,7 +937,7 @@ nav#menu-ppal #menu-navegador li:first-child {
 }
 
 #contact-form input,
-#contact-form textarea {
+#contact-form textarea,#contact-form select {
     border: none;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -957,7 +957,7 @@ nav#menu-ppal #menu-navegador li:first-child {
     resize: none;
 }
 
-#contact-form input {
+#contact-form input,#contact-form select  {
     width: 100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
