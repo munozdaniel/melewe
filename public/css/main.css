@@ -1395,3 +1395,9 @@ footer .credits {
        -o-transition: none;
           transition: none;
 }
+/* ==================================================
+   MEDIA QUERIES PARA EL MENU
+================================================== */
+@media(min-width:768px) and (max-width: 959px){
+    header .sticky-nav {height: 115px !important;}
+}
