@@ -17,6 +17,7 @@ return new \Phalcon\Config(array(
         'migrationsDir'  => APP_PATH . '/app/migrations/',
         'viewsDir'       => APP_PATH . '/app/views/',
         'pluginsDir'     => APP_PATH . '/app/plugins/',
+        'formsDir'     => APP_PATH . '/app/forms/',
         'libraryDir'     => APP_PATH . '/app/library/',
         'cacheDir'       => APP_PATH . '/app/cache/',
         'baseUri'        => '/melewe/',
