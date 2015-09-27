@@ -6,11 +6,12 @@
 <!--[if gt IE 8]><!-->
 <html lang="es-ES"> <!--<![endif]-->
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Sistema de Turismo.">
         <meta name="author" content="Muñoz Daniel Eduardo">
         {{ get_title() }}
+        {{ stylesheet_link('css/bootstrap.min.css') }}
+
         <!-- Mobile Specifics -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="HandheldFriendly" content="true"/>
@@ -65,7 +66,7 @@
         {{ content() }}
     </body>
     <!-- Js -->
-    {{ javascript_include('js/jquery.min.js') }} <!-- jQuery Core -->
+    {{ javascript_include('js/jquery.js') }} <!-- jQuery Core -->
     {{ javascript_include('js/bootstrap.min.js') }} <!-- Bootstrap -->
     {{ javascript_include('js/supersized.3.2.7.min.js') }} <!-- Slider -->
     {{ javascript_include('js/waypoints.js') }} <!-- WayPoints -->
