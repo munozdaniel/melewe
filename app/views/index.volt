@@ -18,7 +18,7 @@
         <meta name="MobileOptimized" content="320"/>
         <!-- Mobile Internet Explorer ClearType Technology -->
         <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <!-- Main Style -->
         {{ stylesheet_link('css/main.css') }}
         <!-- Supersized -->

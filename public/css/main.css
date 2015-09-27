@@ -20,7 +20,7 @@ html, body {
 	height: 100%;
 }
 
-html, hmtl a{
+html, html a{
 	width:100%;
 	font-size: 100%; 
 	-webkit-text-size-adjust: 100%; 
@@ -141,7 +141,7 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #7F8289;
 }
-
+.icon-bar{background-color: #E0E0E0;}
 /* ==================================================
    Code and Pre
 ================================================== */
@@ -1388,8 +1388,63 @@ footer .credits {
           transition: none;
 }
 /* ==================================================
-   MEDIA QUERIES PARA EL MENU
+   MEDIA QUERIES
 ================================================== */
+
 @media(min-width:768px) and (max-width: 959px){
+    /*Menu: para que se amplie la barra*/
     header .sticky-nav {height: 115px !important;}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+@media(max-width:767px) {
+    .navbar-nav {
+        margin: 0px -15px;
+    }
+    #menu-ppal {
+        text-align: center;
+       /* width: 100%;*/
+        background: #26292E;
+        border-bottom: 1px solid #2F3238;
+        position: relative;
+
+        z-index: 9999;
+    }
+    #menu-ppal li {
+        list-style: none;
+        border-top: 1px solid #2F3238;
+    }
+    #menu-ppal li a {
+        display: block;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {}
+@media (max-width: 320px) {}
+/* Retina Display */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx) {
+
+    header #logo a {
+        background-image: url(../img/logo_@2x.png);
+        background-size: 96px 30px;
+    }
+
+    .menu-nav {
+        background-image: url(../img/menu-mobile_@2x.png);
+        background-size: 16px 32px;
+    }
+
+    .type-work {/*Nuestros Complejos*/
+        background-image: url(../img/filter-icon_@2x.png);
+        background-size: 16px 16px;
+    }
 }
