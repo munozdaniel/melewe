@@ -13,7 +13,7 @@ BRUSHED.mobileNav = function(){
 	if( windowWidth <= 979 ) {
 		if( $('#mobile-nav').length > 0 ) {
 			mobileMenuClone.insertAfter('#menu');
-			$('#navigation-mobile #menu-nav').attr('id', 'menu-nav-mobile');
+			$('#navigation-mobile #menu-navegador').attr('id', 'menu-nav-mobile');
 		}
 	} else {
 		$('#navigation-mobile').css('display', 'none');

@@ -1387,6 +1387,35 @@ footer .credits {
        -o-transition: none;
           transition: none;
 }
+/*==================================================
+MENU HAMBURGUESA CONVERTIR A CRUZ (X)
+==================================================*/
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
 /* ==================================================
    MEDIA QUERIES
 ================================================== */
@@ -1395,9 +1424,7 @@ footer .credits {
     /*Menu: para que se amplie la barra*/
     header .sticky-nav {height: 115px !important;}
 }
-@media (min-width: 481px) and (max-width: 767px) {
 
-}
 @media(max-width:767px) {
     .navbar-nav {
         margin: 0px -15px;
@@ -1420,31 +1447,5 @@ footer .credits {
         font-size: 16px;
         text-transform: uppercase;
         padding: 20px 0;
-    }
-}
-
-@media (max-width: 480px) {}
-@media (max-width: 320px) {}
-/* Retina Display */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (-moz-min-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 2dppx) {
-
-    header #logo a {
-        background-image: url(../img/logo_@2x.png);
-        background-size: 96px 30px;
-    }
-
-    .menu-nav {
-        background-image: url(../img/menu-mobile_@2x.png);
-        background-size: 16px 32px;
-    }
-
-    .type-work {/*Nuestros Complejos*/
-        background-image: url(../img/filter-icon_@2x.png);
-        background-size: 16px 16px;
     }
 }
