@@ -569,7 +569,9 @@ nav#menu-ppal #menu-navegador li:first-child {
      background-color:  rgba(255, 255, 255, 0);
 }
 
-
+#menu-navegador li a:focus {
+    background-color:  rgba(255, 255, 255, 0);
+}
 /* ==================================================
    Mobile Navigation
 ================================================== */
