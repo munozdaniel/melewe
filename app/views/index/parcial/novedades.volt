@@ -15,10 +15,7 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="http://placehold.it/1200x315" alt="...">
-                            <div class="carousel-caption">
-                                <h3>Caption Text</h3>
-                            </div>
+                            {{ link_to('index/index#novedades-cronograma',image('img/novedades/cronograma.jpg','alt':'slider cronograma'))  }}
                         </div>
                         <div class="item">
                             <img src="http://placehold.it/1200x315" alt="...">
@@ -65,7 +62,7 @@
                         <span class="overlay-img"></span>
                         <span class="overlay-text-thumb">Convenios</span>
                     </div>
-                    <img src="_include/img/profile/profile-01.jpg" alt="Verano">
+                    {{ image('img/profile/profile-A.jpg','alt':'Verano') }}
                 </div>
                 <h3 class="profile-name">Convenios</h3>
                 <p class="profile-description">Convenios con diferentes entidades turisticas del pais</p>
@@ -79,7 +76,7 @@
                         <span class="overlay-img"></span>
                         <span class="overlay-text-thumb">Dirección de Turismo</span>
                     </div>
-                    <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+                    {{ image('img/profile/profile-B.jpg','alt':'Direccion  de Turismo ') }}
                 </div>
                 <h3 class="profile-name">Dirección de Turismo</h3>
                 <p class="profile-description">Dirección de Turismo del Instituto Municipal de Previsión Social.</p>
@@ -88,17 +85,17 @@
 
             <!-- Start Profile -->
             <div class="col-md-4 span4 profile">
-                <div class="image-wrap">
-                    <div class="hover-wrap">
-                        <span class="overlay-img"></span>
-                        <span class="overlay-text-thumb">IMPS</span>
+                <a href="http://imps.org.ar/" target="_blank">
+                    <div class="image-wrap">
+                        <div class="hover-wrap">
+                            <span class="overlay-img"></span>
+                            <span class="overlay-text-thumb">IMPS</span>
+                        </div>
+                        {{ image('img/profile/profile-C.jpg','alt':'Instituto Municipal de Prevision Social') }}
                     </div>
-                    <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
-                </div>
-                <h3 class="profile-name">IMPS</h3>
-                <p class="profile-description">Instituto Municipal de Previsión Social</p>
-
-
+                    <h3 class="profile-name">IMPS</h3>
+                    <p class="profile-description">Instituto Municipal de Previsión Social</p>
+                </a>
             </div>
             <!-- End Profile -->
 
