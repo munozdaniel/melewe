@@ -23,7 +23,7 @@
                         <span class="overlay-img"></span>
                         <span class="overlay-text-thumb">Verano</span>
                     </div>
-                    <img src="_include/img/profile/profile-01.jpg" alt="Verano">
+                    {{ image('img/profile/profile-01.jpg','alt':'Verano') }}
                 </div>
                 <h3 class="profile-name">Verano</h3>
                 <p class="profile-description">Información no disponible <a>momentáneamente</a></p>
@@ -37,7 +37,7 @@
                         <span class="overlay-img"></span>
                         <span class="overlay-text-thumb">Invierno</span>
                     </div>
-                    <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+                    {{ image('img/profile/profile-02.jpg','alt':'Invierno') }}
                 </div>
                 <h3 class="profile-name">Invierno</h3>
                 <p class="profile-description">Información no disponible <a>momentáneamente</a></p>
@@ -51,7 +51,7 @@
                         <span class="overlay-img"></span>
                         <span class="overlay-text-thumb">Temporada Baja</span>
                     </div>
-                    <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+                    {{ image('img/profile/profile-03.jpg','alt':'Temporada Baja') }}
                 </div>
                 <h3 class="profile-name">Temporada Baja</h3>
                 <p class="profile-description">Información no disponible <a>momentáneamente</a></p>
