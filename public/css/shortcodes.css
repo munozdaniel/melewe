@@ -533,7 +533,9 @@ blockquote small:before {
 /* ==================================================
    Icons Example
 ================================================== */
-
+.lista-servicios{
+    list-style-type: none;
+}
 .icons-example ul {
 	margin: 0;
 	padding: 0;
@@ -549,8 +551,8 @@ blockquote small:before {
 
 .icons-example ul li a {
 	display: block;
-	width: 70px;
-	height: 70px;
+	width: 25px;
+	height: 25px;
 
 	background: #26292E;
 	
@@ -570,8 +572,8 @@ blockquote small:before {
 	display: inline-block;
 	margin: 0;
 	color: #55606a;
-	font-size: 32px;
-	line-height: 70px;
+	font-size: 22px;
+	line-height: 25px;
 	
 	opacity: 0.3;
 	filter: alpha(opacity=30);
