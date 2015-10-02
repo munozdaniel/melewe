@@ -1,5 +1,6 @@
 <?php
-
+//obtenemos el adaptador que crea la paginación en Phalcon
+use \Phalcon\Paginator\Adapter\Model as Paginacion;
 class IndexController extends ControllerBase
 {
     public function initialize()
@@ -13,6 +14,44 @@ class IndexController extends ControllerBase
     public function indexAction()
     {
         $this->view->contacto = new ContactoForm();
+
+    }
+    public function villaAction()
+    {
+        $paginator = new Paginacion(
+            array(
+                //obtenemos los productos
+                "data" => Galeria::findByGaleria_complejo('Villa La Angostura'),
+                //limite por página
+                "limit"=> 6,
+                //variable get page convertida en un integer
+                "page" => $this->request->getQuery('page', 'int')
+            )
+        );
+
+        //pasamos el objeto a la vista con el nombre de $page
+        $this->view->galeria = $paginator->getPaginate();
+         $this->view->pick('index/index');
+
+    }
+    public function caviahueAction()
+    {
+        //Crea un paginador, muestra 3 filas por página
+        $paginator = new Paginacion(
+            array(
+                //obtenemos los productos
+                "data" => Galeria::findByGaleria_complejo('Caviahue'),
+                //limite por página
+                "limit"=> 6,
+                //variable get page convertida en un integer
+                "page" => $this->request->getQuery('page', 'int')
+            )
+        );
+
+        //pasamos el objeto a la vista con el nombre de $page
+        $this->view->galeria = $paginator->getPaginate();
+        $this->view->pick('index/index');
+
     }
     public function enviarAction()
     {
